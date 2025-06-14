@@ -30,7 +30,8 @@ export default function AddLeadPage() {
     setMessage("");
 
     try {
-      const response = await axios.post("http://localhost:8000/api/leads", form);
+      const baseURL = process.env.NEXT_PUBLIC_API_URL;
+      const response = await axios.post(`${baseURL}/api/leads`, form);
 
       if (response.status === 201) {
         setMessage("Lead added successfully!");

@@ -9,10 +9,13 @@ export default function LeadsPage() {
   const [error, setError] = useState("");
   const router = useRouter();
 
+  const baseURL = process.env.NEXT_PUBLIC_API_URL;
+
   useEffect(() => {
     const fetchLeads = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/api/leads");
+          const res = await axios.get(`${baseURL}/api/leads`);
+ 
         setLeads(res.data);
       } catch (err) {
         setError("Failed to fetch leads");

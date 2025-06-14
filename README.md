@@ -2,8 +2,8 @@
 
 A simple full-stack application for managing sales leads with Next.js frontend and Node.js backend.
 
-![Lead Management System Preview](https://via.placeholder.com/800x400?text=Lead+Management+System+Screenshot) 
-*(Replace with actual screenshot)*
+![Uploading Screenshot from 2025-06-14 03-03-58.png…]()
+
 
 ## Features
 

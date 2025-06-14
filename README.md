@@ -2,7 +2,8 @@
 
 A simple full-stack application for managing sales leads with Next.js frontend and Node.js backend.
 
-![Uploading Screenshot from 2025-06-14 03-03-58.png…]()
+![Screenshot from 2025-06-14 03-03-58](https://github.com/user-attachments/assets/8d21d298-7d41-4e70-9b7d-0ceef274554a)
+
 
 
 ## Features
